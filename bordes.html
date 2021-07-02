@@ -11,331 +11,44 @@ html {
 font-family: Roboto,Helvetica Neue, Helvetica, Arial, sans-serif !important;
 }
 
-table, td { color: #000000; } 
-@media only screen and (min-width: 620px) {
-.u-row {
-width: 600px !important;
-}
-.u-row .u-col {
-vertical-align: top;
- background: url('https://github.com/jgarcia-sps/recursos/blob/RecursosV2/Plantillas_v5/fondoV.png')repeat;
- background-color: #000000;
-}
-.u-row .u-col-100 {
-width: 600px !important;
-}
-}
-@media (max-width: 620px) {
-.u-row-container {
-max-width: 100% !important;
-padding-left: 0px !important;
-padding-right: 0px !important;
+.day   { background: #eee; color: black; }
+.night { background: #333; color: white; }
 
-}
-.u-row .u-col {
-min-width: 320px !important;
-max-width: 100% !important;
-display: block !important;
-}
-.u-row {
-width: calc(100% - 40px) !important;
-}
-.u-col {
-width: 100% !important;
-}
-.u-col > div {
-margin: 0 auto;
-}
-}
-body {
-margin: 0;
-padding: 0;
-}
-table,
-tr,
-td {
-vertical-align: top;
-border-collapse: collapse;
-}
-p {
-margin: 0;
-}
-.ie-container table,
-.mso-container table {
-table-layout: fixed;
-}
-* {
-line-height: inherit;
-}
-a[x-apple-data-detectors='true'] {
-color: inherit !important;
-text-decoration: none !important;
+@media (prefers-color-scheme: dark) {
+  .day.dark-scheme   { background:  #333; color: white; }
+  .night.dark-scheme { background: black; color:  #ddd; }
 }
 
-.fs-1 {
-font-size: 25px !important;
-
+@media (prefers-color-scheme: light) {
+  .day.light-scheme   { 
+   background: url('https://github.com/jgarcia-sps/recursos/blob/master/fondoV.png') center; 
+   background-attachment: fixed;
+   background-size: cover;
+  
+  
+  }
+  .night.light-scheme { background:  #eee; color: black; }
 }
 
-.fs-2 {
-font-size: 18px !important;
+.day, .night {
+  display: inline-block;
+  padding: 1em;
+  width: 7em;
+  height: 2em;
+  vertical-align: middle;
 }
 
-.fs-3 {
-font-size: 15px !important;
-}
 
-@media only screen and (max-width: 768px) {
-.fs-1 {
-font-size: 20px !important;
-}
-
-.fs-2 {
-font-size: 18px !important;
-}
-
-.container {
-width: 100%;
-color: #9E9C9B !important;
-
-}
-}
-
-@media only screen and (max-width: 400px) {
-.fs-1 {
-font-size: 17px !important;
-}
-
-.fs-2 {
-font-size: 15px !important;
-}
-
-.fs-3 {
-font-size: 12px !important;
-}
-}
 </style>  
 <!--[if !mso]><!--><link href='https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap' rel='stylesheet'><!--<![endif]-->
 </head>
-<body class='clean-body' style='margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background: #FFFF00;color: #ffffff'>
-<!--[if IE]><div class='ie-container'><![endif]-->
-<!--[if mso]><div class='mso-container'><![endif]-->
-<table style='border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;min-width: 600px;Margin: 0 auto;background: #00FFFF width:100%' cellpadding='0' cellspacing='0'>
-<tbody>
-<tr style='vertical-align: top'>
-<td style='word-break: break-word;border-collapse: collapse !important;vertical-align: top'>
-<!--[if (mso)|(IE)]><table width='100%' cellpadding='0' cellspacing='0' border='0'><tr><td align='center' style='background: #FFFF00;'><![endif]-->
+<body class='clean-body' style='margin: 0;padding: 0;-webkit-text-size-adjust: 100%;'>
+<div class="day">Day (initial)</div>
+<div class="day light-scheme">Day (changes in light scheme)</div>
+<div class="day dark-scheme">Day (changes in dark scheme)</div> <br>
 
-
-<div class='u-row-container' style='padding: 0px 5px 0px;'>
-<div class='u-row' style='Margin: 0 auto;min-width: 600px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background: #00FFFF '>
-<div style='border-collapse: collapse;display: table;width: 100%;background-color: transparent;'>
-<!--[if (mso)|(IE)]><table width='100%' cellpadding='0' cellspacing='0' border='0'><tr><td style='padding: 0px 5px 1px;;' align='center'><table cellpadding='0' cellspacing='0' border='0' style='width:600px;'><tr style='background: #00FFFF '><![endif]-->
-
-<!--[if (mso)|(IE)]><td align='center' width='600' style='width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid #ffffff;' valign='top'><![endif]-->
-<div class='u-row-container' style='padding: 0px;'>
-<div class='u-row' style='Margin: 0 auto;min-width: 600px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background: #00FFFF '>
-<div style='border-collapse: collapse;display: table;width: 100%;background-color: transparent;'>
-<!--[if (mso)|(IE)]><table width='100%' cellpadding='0' cellspacing='0' border='0'><tr><td style='padding: 0px;;' align='center'><table cellpadding='0' cellspacing='0' border='0' style='width:600px;'><tr style='background: #00FFFF '><![endif]-->
-
-<!--[if (mso)|(IE)]><td align='center' width='600' style='width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;' valign='top'><![endif]-->
-<div class='u-col u-col-100' style='max-width: 600px;min-width: 600px;display: table-cell;vertical-align: top;'>
-<div style='width: 100% !important;'>
-<!--[if (!mso)&(!IE)]><!--><div style='padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;'><!--<![endif]-->
-
-<table style='font-family:'Roboto',sans-serif;' role='presentation' cellpadding='0' cellspacing='0' width='100%' border='0'>
-<tbody>
-<tr>
-<td style='overflow-wrap:break-word;word-break:break-word;padding:5px;font-family:'Roboto',sans-serif;' align='left'>
-
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td style='padding-right: 0px;padding-left: 0px;' align='center'>      
-<img align='center' border='0' src='https://montepiedad.com.mx/images/miinmueble/pleca.jpg?raw=true' alt='Image' title='Image' style='outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 100%;' width='100%'/>     
-<br></br>
-<br></br>
-<img align='center' border='0' src='https://www.montepiedad.com.mx/images/logo-miinmueble-02.png?raw=true' alt='Image' title='Image' style='outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 50%;max-width: 50%;' width='50%'/>     
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
-</div>
-</div>
-<!--[if (mso)|(IE)]></td><![endif]-->
-<!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-</div>
-</div>
-</div>
-<div class='u-row-container' style='padding: 0px 5px 0px;'>
-<div class='u-row' style='Margin: 0 auto;min-width: 600px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background: #00FFFF '>
-<div style='border-collapse: collapse;display: table;width: 100%;background-color: transparent;'>
-<!--[if (mso)|(IE)]><table width='100%' cellpadding='0' cellspacing='0' border='0'><tr><td style='padding: 0px;;' align='center'><table cellpadding='0' cellspacing='0' border='0' style='width:600px;'><tr style='background: #00FFFF '><![endif]-->
-
-<!--[if (mso)|(IE)]><td align='center' width='600' style='width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;' valign='top'><![endif]-->
-<div class='u-col u-col-100' style='max-width: 600px;min-width: 600px;display: table-cell;vertical-align: top;'>
-<div style='width: 100% !important;'>
-<!--[if (!mso)&(!IE)]><!--><div style='padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;'><!--<![endif]-->
-
-<table style='font-family:'Roboto',sans-serif;' role='presentation' cellpadding='0' cellspacing='0' width='100%' border='0'>
-<tbody>
-<tr>
-<td style='padding:5px 5px;font-family:'Roboto',sans-serif;' align='left'>
-
-<div style='text-align: left;margin-bottom: 30px !important;'>
-<p class='fs-1'>
-<strong>
-<span style='color: #9E9C9B;'>¡Hola!</span>
-</strong>
-</p>
-</div>
-<div style='text-align: left; margin-bottom: 30px !important;'>
-<p class='fs-1' style='color: #9E9C9B;'>${nombreCliente}</p>
-</div>     
-<div style='text-align: left; margin-bottom: 30px !important;'>
-<p class='fs-1'>
-<span style='color: #9E9C9B;'>Hemos revisado tu documentación y </span>
-<span style='color: #9E9C9B;'>detectamos que aún existen pendientes </span>
-<span style='color: #9E9C9B;'>para continuar tu proceso.</span>
-</p>
-</div>
-<br>
-<div style='text-align: left;margin-bottom: 30px !important;'>
-<p class='fs-1'>
-<span style='color: #9E9C9B;'>Ingresa a nuestra aplicación y conoce el </span>
-<span style='color: #9E9C9B;'>detalle:</span>
-</p>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-<!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
-</div>
-</div>
-<!--[if (mso)|(IE)]></td><![endif]-->
-<!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-</div>
-</div>
-</div>
-
-<div class='u-row-container' style='padding: 0px 5px 0px;'>
-<div class='u-row' style='Margin: 0 auto;min-width: 600px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background: #00FFFF '>
-<div style='border-collapse: collapse;display: table;width: 100%;background-color: transparent;'>
-<!--[if (mso)|(IE)]><table width='100%' cellpadding='0' cellspacing='0' border='0'><tr><td style='padding: 0px;;' align='center'><table cellpadding='0' cellspacing='0' border='0' style='width:600px;'><tr style='background: #00FFFF '><![endif]-->
-
-<!--[if (mso)|(IE)]><td align='center' width='600' style='width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;' valign='top'><![endif]-->
-<div class='u-col u-col-100' style='max-width: 600px;min-width: 600px;display: table-cell;vertical-align: top;'>
-<div style='width: 100% !important;'>
-<!--[if (!mso)&(!IE)]><!--><div style='padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;'><!--<![endif]-->
-
-<table style='font-family:'Roboto',sans-serif;' role='presentation' cellpadding='0' cellspacing='0' width='100%' border='0'>
-<tbody>
-<tr>
-<td style='overflow-wrap:break-word;word-break:break-word;padding:5px;font-family:'Roboto',sans-serif;' align='left'>
-
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td style='padding-right: 0px;padding-left: 0px;' align='center'>      
-<a title='click' href='https://dev1775-miinmueblemonte-paradigmas.mybluemix.net/identificate/iniciar-sesion'>
-<img src='https://github.com/jgarcia-sps/recursos/blob/master/click.png?raw=true' alt='click aquí' style='outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 40%;' width='40%'/>
-</a>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
-</div>
-</div>
-<!--[if (mso)|(IE)]></td><![endif]-->
-<!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-</div>
-</div>
-</div>
-
-<div class='u-row-container' style='padding: 0px 5px 0px;'>
-<div class='u-row' style='Margin: 0 auto;min-width: 600px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background: #00FFFF '>
-<div style='border-collapse: collapse;display: table;width: 100%;background-color: transparent;'>
-<!--[if (mso)|(IE)]><table width='100%' cellpadding='0' cellspacing='0' border='0'><tr><td style='padding: 0px;;' align='center'><table cellpadding='0' cellspacing='0' border='0' style='width:600px;'><tr style='background: #00FFFF '><![endif]-->
-
-<!--[if (mso)|(IE)]><td align='center' width='600' style='width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;' valign='top'><![endif]-->
-<div class='u-col u-col-100' style='max-width: 600px;min-width: 600px;display: table-cell;vertical-align: top;'>
-<div style='width: 100% !important;'>
-<!--[if (!mso)&(!IE)]><!--><div style='padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;'><!--<![endif]-->
-
-<table style='font-family:'Roboto',sans-serif;' role='presentation' cellpadding='0' cellspacing='0' width='100%' border='0'>
-<tbody>
-<tr>
-<td style='overflow-wrap:break-word;word-break:break-word;padding:5px;font-family:'Roboto',sans-serif;' align='left'>
-
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td style='padding-right: 0px;padding-left: 0px;' align='center'>      
-<img  src='https://montepiedad.com.mx/images/minmueble/1.jpg?raw=true' alt='logo monte' style='width: 100%;max-width: 100%;display:block;border:0;' width='100%'/>
-<img  src='https://www.montepiedad.com.mx/images/Miinmueble3/paginaweb.jpg?raw=true' alt='www.montepiedad.com.mx' style='width: 100%;max-width: 100%;display:block;border:0;' width='100%'/>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
-</div>
-</div>
-<!--[if (mso)|(IE)]></td><![endif]-->
-<!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-</div>
-</div>
-</div>
-
-<div class='u-row-container' style='padding: 0px 5px 0px;'>
-<div class='u-row' style='Margin: 0 auto;min-width: 600px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background: #00FFFF '>
-<div style='border-collapse: collapse;display: table;width: 100%;background-color: transparent;'>
-<!--[if (mso)|(IE)]><table width='100%' cellpadding='0' cellspacing='0' border='0'><tr><td style='padding: 0px;;' align='center'><table cellpadding='0' cellspacing='0' border='0' style='width:600px;'><tr style='background: #00FFFF '><![endif]-->
-
-<!--[if (mso)|(IE)]><td align='center' width='600' style='width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;' valign='top'><![endif]-->
-<div class='u-col u-col-100' style='max-width: 600px;min-width: 600px;display: table-cell;vertical-align: top;'>
-<div style='width: 100% !important;'>
-<!--[if (!mso)&(!IE)]><!--><div style='padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;'><!--<![endif]-->
-
-<table style='font-family:'Roboto',sans-serif;' role='presentation' cellpadding='0' cellspacing='0' width='100%' border='0'>
-<tbody>
-<tr>
-<td style='overflow-wrap:break-word;word-break:break-word;padding:5px;font-family:'Roboto',sans-serif;' align='left'>
-
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td style='padding-right: 0px;padding-left: 0px;' align='center'>      
-<img  src='https://www.montepiedad.com.mx/images/Miinmueble1/tel.jpg?raw=true' alt='800 3566683' style='outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 100%;' width='100%'/>     
-<img  src='https://www.montepiedad.com.mx/images/Miinmueble1/Aviso.jpg?raw=true' alt='aviso de privacidad' style='outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 60%;max-width: 60%;' width='60%'/>     
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
-</div>
-</div>
-<!--[if (mso)|(IE)]></td><![endif]-->
-<!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-</div>
-</div>
-</div>
-<!--[if (mso)|(IE)]></td></tr></table><![endif]-->
-</td>
-</tr>
-</tbody>
-</table>
-<!--[if mso]></div><![endif]-->
-<!--[if IE]></div><![endif]-->
+<div class="night">Night (initial)</div>
+<div class="night light-scheme">Night (changes in light scheme)</div>
+<div class="night dark-scheme">Night (changes in dark scheme)</div>
 </body>
 </html>
