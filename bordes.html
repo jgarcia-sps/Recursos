@@ -6,7 +6,6 @@
 <title>Page Title</title>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-<meta name='color-scheme' content='only'>
 <script src='main.js'></script>
 </head>
 <style type='text/css'>
@@ -14,25 +13,35 @@ html {
 font-family: Roboto,Helvetica Neue, Helvetica, Arial, sans-serif !important;
 }
 
-.day   { background: #fff; color: #9E9C9B; }
-.night { background: #eee; color: #000000; }
+body {
+background-image: url('https://github.com/jgarcia-sps/recursos/blob/master/fondoV.png?raw=true')repeat right top;
+}
+
+.backgroundEstadoDeCuenta {
+background: #E7E614 url('https://github.com/jgarcia-sps/recursos/blob/master/fondoV.png?raw=true')repeat right top;
+background-size: cover;
+}
+
+.day   { background: #eee; color: black; }
+.night { background: #fff; color: gray; }
+
 
 @media (prefers-color-scheme: dark) {
-  .day.dark-scheme   { background:  #333; color: white; }
-  .night.dark-scheme { background: black; color:  #ddd; }
+.day.dark-scheme   { background:  #333; color: white; }
+.night.dark-scheme { background: black; color:  #ddd; }
 }
 
 @media (prefers-color-scheme: light) {
-  .day.light-scheme   { background: white; color:  #555; }
-  .night.light-scheme { background:  #eee; color: black; }
+.day.light-scheme   { background: white; color:  #555; }
+.night.light-scheme { background:  #eee; color: black; }
 }
 
 .day, .night {
-  display: inline-block;
-  padding: 1em;
-  width: 7em;
-  height: 2em;
-  vertical-align: middle;
+display: inline-block;
+padding: 1em;
+width: 7em;
+height: 2em;
+vertical-align: middle;
 }
 
 table, td { color: #000000; } 
@@ -139,329 +148,15 @@ font-size: 12px !important;
 </style>  
 <!--[if !mso]><!--><link href='https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap' rel='stylesheet'><!--<![endif]-->
 </head>
-<body style='margin: 0;padding: 0;-webkit-text-size-adjust: 100%;'>
+<body class='backgroundEstadoDeCuenta' style='margin: 0;padding: 0;-webkit-text-size-adjust: 100%;'>
 <div class='day'>Day (initial)</div>
 <div class='day light-scheme'>Day (changes in light scheme)</div>
 <div class='day dark-scheme'>Day (changes in dark scheme)</div> <br>
+
 <div class='night'>Night (initial)</div>
 <div class='night light-scheme'>Night (changes in light scheme)</div>
 <div class='night dark-scheme'>Night (changes in dark scheme)</div>
-</body>
 
-<table background="https://github.com/jgarcia-sps/recursos/blob/RecursosV2/Plantillas_v5/fondoV.jpg?raw=true" width="600" height="200">
-<tbody>
-<tr style='vertical-align: top'>
-<td style='word-break: break-word;border-collapse: collapse !important;vertical-align: top'>
-<!--[if (mso)|(IE)]>
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td align='center' style=''>
-<![endif]-->
-<div class='u-row-container' style='padding: 0px 0px 0px;'>
-<div class='u-row' style='Margin: 0 auto;min-width: 600px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;'>
-<div style='border-collapse: collapse;display: table;width: 100%;background-color: transparent;'>
-<!--[if (mso)|(IE)]>
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td style='padding: 0px 0px 1px;;' align='center'>
-<table cellpadding='0' cellspacing='0' border='0' style='width:600px;'>
-<tr style=''>
-<![endif]-->
-<!--[if (mso)|(IE)]>
-<td align='center' width='600' style='width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid #ffffff;' valign='top'>
-<![endif]-->
-<div class='u-row-container' style='padding: 0px;'>
-<div class='u-row' style='Margin: 0 auto;min-width: 600px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;'>
-<div style='border-collapse: collapse;display: table;width: 100%;background-color: transparent;'>
-<!--[if (mso)|(IE)]>
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td style='padding: 0px;;' align='center'>
-<table cellpadding='0' cellspacing='0' border='0' style='width:600px;'>
-<tr style=''>
-<![endif]-->
-<!--[if (mso)|(IE)]>
-<td align='center' width='600' style='width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;' valign='top'>
-<![endif]-->
-<div class='u-col u-col-100' style='max-width: 600px;min-width: 600px;display: table-cell;vertical-align: top;'>
-<div style='width: 100% !important;'>
-<!--[if (!mso)&(!IE)]>
-<!-->
-<div style='padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;'>
-<!--<![endif]-->
-<table style='font-family:'Roboto',sans-serif;' role='presentation' cellpadding='0' cellspacing='0' width='100%' border='0'>
-<tbody>
-<tr>
-<td style='overflow-wrap:break-word;word-break:break-word;padding:0px;font-family:'Roboto',sans-serif;' align='left'>
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td style='padding-right: 0px;padding-left: 0px;' align='center'>      <img align='center' border='0' src='https://montepiedad.com.mx/images/miinmueble/pleca.jpg?raw=true' alt='Image' title='Image' style='outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 100%;' width='100%'/>     <br>
-</br>
-<br>
-</br>
-<img align='center' border='0' src='https://www.montepiedad.com.mx/images/logo-miinmueble-02.png?raw=true' alt='Image' title='Image' style='outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 50%;max-width: 50%;' width='50%'/>     </td>
-</tr>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!--[if (!mso)&(!IE)]>
-<!-->
-</div>
-<!--<![endif]-->
-</div>
-</div>
-<!--[if (mso)|(IE)]>
-</td>
-<![endif]-->
-<!--[if (mso)|(IE)]>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-<![endif]-->
-</div>
-</div>
-</div>
-<div class='u-row-container' style='padding: 0px 0px 0px;'>
-<div class='u-row' style='Margin: 0 auto;min-width: 600px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;'>
-<div style='border-collapse: collapse;display: table;width: 100%;background-color: transparent;'>
-<!--[if (mso)|(IE)]>
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td style='padding: 0px;;' align='center'>
-<table cellpadding='0' cellspacing='0' border='0' style='width:600px;'>
-<tr style=''>
-<![endif]-->
-<!--[if (mso)|(IE)]>
-<td align='center' width='600' style='width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;' valign='top'>
-<![endif]-->
-<div class='u-col u-col-100' style='max-width: 600px;min-width: 600px;display: table-cell;vertical-align: top;'>
-<div style='width: 100% !important;'>
-<!--[if (!mso)&(!IE)]>
-<!-->
-<div style='padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;'>
-<!--<![endif]-->
-<table style='font-family:'Roboto',sans-serif;' role='presentation' cellpadding='0' cellspacing='0' width='100%' border='0'>
-<tbody>
-<tr>
-<td style='padding:0px 0px;font-family:'Roboto',sans-serif;' align='left'>
-<div style='text-align: left;margin-bottom: 30px !important;'>
-<p class='fs-1'>
-<strong>
-<span style='color: #9E9C9B;'>¡Hola!</span>
-</strong>
-</p>
-</div>
-<div style='text-align: left; margin-bottom: 30px !important;'>
-<p class='fs-1' style='color: #9E9C9B;'>${nombreCliente}</p>
-</div>     <div style='text-align: left; margin-bottom: 30px !important;'>
-<p class='fs-1'>
-<span style='color: #9E9C9B;'>Hemos revisado tu documentación y </span>
-<span style='color: #9E9C9B;'>detectamos que aún existen pendientes </span>
-<span style='color: #9E9C9B;'>para continuar tu proceso.</span>
-</p>
-</div>
-<br>
-<div style='text-align: left;margin-bottom: 30px !important;'>
-<p class='fs-1'>
-<span style='color: #9E9C9B;'>Ingresa a nuestra aplicación y conoce el </span>
-<span style='color: #9E9C9B;'>detalle:</span>
-</p>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-<!--[if (!mso)&(!IE)]>
-<!-->
-</div>
-<!--<![endif]-->
-</div>
-</div>
-<!--[if (mso)|(IE)]>
-</td>
-<![endif]-->
-<!--[if (mso)|(IE)]>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-<![endif]-->
-</div>
-</div>
-</div>
-<div class='u-row-container' style='padding: 0px 0px 0px;'>
-<div class='u-row' style='Margin: 0 auto;min-width: 600px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;'>
-<div style='border-collapse: collapse;display: table;width: 100%;background-color: transparent;'>
-<!--[if (mso)|(IE)]>
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td style='padding: 0px;;' align='center'>
-<table cellpadding='0' cellspacing='0' border='0' style='width:600px;'>
-<tr style=''>
-<![endif]-->
-<!--[if (mso)|(IE)]>
-<td align='center' width='600' style='width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;' valign='top'>
-<![endif]-->
-<div class='u-col u-col-100' style='max-width: 600px;min-width: 600px;display: table-cell;vertical-align: top;'>
-<div style='width: 100% !important;'>
-<!--[if (!mso)&(!IE)]>
-<!-->
-<div style='padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;'>
-<!--<![endif]-->
-<table style='font-family:'Roboto',sans-serif;' role='presentation' cellpadding='0' cellspacing='0' width='100%' border='0'>
-<tbody>
-<tr>
-<td style='overflow-wrap:break-word;word-break:break-word;padding:0px;font-family:'Roboto',sans-serif;' align='left'>
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td style='padding-right: 0px;padding-left: 0px;' align='center'>      <a title='click' href='https://dev1775-miinmueblemonte-paradigmas.mybluemix.net/identificate/iniciar-sesion'>
-<img src='https://github.com/jgarcia-sps/recursos/blob/master/click.png?raw=true' alt='click aquí' style='outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 40%;max-width: 40%;' width='40%'/>
-</a>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!--[if (!mso)&(!IE)]>
-<!-->
-</div>
-<!--<![endif]-->
-</div>
-</div>
-<!--[if (mso)|(IE)]>
-</td>
-<![endif]-->
-<!--[if (mso)|(IE)]>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-<![endif]-->
-</div>
-</div>
-</div>
-<br>
-<br>
-<div class='u-row-container' style='padding: 0px 0px 0px;'>
-<div class='u-row' style='Margin: 0 auto;min-width: 600px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;'>
-<div style='border-collapse: collapse;display: table;width: 100%;background-color: transparent;'>
-<!--[if (mso)|(IE)]>
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td style='padding: 0px;;' align='center'>
-<table cellpadding='0' cellspacing='0' border='0' style='width:600px;'>
-<tr style=''>
-<![endif]-->
-<!--[if (mso)|(IE)]>
-<td align='center' width='600' style='width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;' valign='top'>
-<![endif]-->
-<div class='u-col u-col-100' style='max-width: 600px;min-width: 600px;display: table-cell;vertical-align: top;'>
-<div style='width: 100% !important;'>
-<!--[if (!mso)&(!IE)]>
-<!-->
-<div style='padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;'>
-<!--<![endif]-->
-<table style='font-family:'Roboto',sans-serif;' role='presentation' cellpadding='0' cellspacing='0' width='100%' border='0'>
-<tbody>
-<tr>
-<td style='overflow-wrap:break-word;word-break:break-word;padding:0px;font-family:'Roboto',sans-serif;' align='left'>
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td style='padding-right: 0px;padding-left: 0px;' align='center'>      <img  src='https://montepiedad.com.mx/images/minmueble/1.jpg?raw=true' alt='logo monte' style='width: 100%;max-width: 100%;display:block;border:0;' width='100%'/>
-<img  src='https://www.montepiedad.com.mx/images/Miinmueble3/paginaweb.jpg?raw=true' alt='www.montepiedad.com.mx' style='width: 100%;max-width: 100%;display:block;border:0;' width='100%'/>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!--[if (!mso)&(!IE)]>
-<!-->
-</div>
-<!--<![endif]-->
-</div>
-</div>
-<!--[if (mso)|(IE)]>
-</td>
-<![endif]-->
-<!--[if (mso)|(IE)]>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-<![endif]-->
-</div>
-</div>
-</div>
-<div class='u-row-container' style='padding: 0px 0px 0px;'>
-<div class='u-row' style='Margin: 0 auto;min-width: 600px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;'>
-<div style='border-collapse: collapse;display: table;width: 100%;background-color: transparent;'>
-<!--[if (mso)|(IE)]>
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td style='padding: 0px;;' align='center'>
-<table cellpadding='0' cellspacing='0' border='0' style='width:600px;'>
-<tr style=''>
-<![endif]-->
-<!--[if (mso)|(IE)]>
-<td align='center' width='600' style='width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;' valign='top'>
-<![endif]-->
-<div class='u-col u-col-100' style='max-width: 600px;min-width: 600px;display: table-cell;vertical-align: top;'>
-<div style='width: 100% !important;'>
-<!--[if (!mso)&(!IE)]>
-<!-->
-<div style='padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;'>
-<!--<![endif]-->
-<table style='font-family:'Roboto',sans-serif;' role='presentation' cellpadding='0' cellspacing='0' width='100%' border='0'>
-<tbody>
-<tr>
-<td style='overflow-wrap:break-word;word-break:break-word;padding:0px;font-family:'Roboto',sans-serif;' align='left'>
-<table width='100%' cellpadding='0' cellspacing='0' border='0'>
-<tr>
-<td style='padding-right: 0px;padding-left: 0px;' align='center'>      <img  src='https://www.montepiedad.com.mx/images/Miinmueble1/tel.jpg?raw=true' alt='800 3566683' style='outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 100%;' width='100%'/>     <img  src='https://www.montepiedad.com.mx/images/Miinmueble1/Aviso.jpg?raw=true' alt='aviso de privacidad' style='outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 60%;max-width: 60%;' width='60%'/>     </td>
-</tr>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!--[if (!mso)&(!IE)]>
-<!-->
-</div>
-<!--<![endif]-->
-</div>
-</div>
-<!--[if (mso)|(IE)]>
-</td>
-<![endif]-->
-<!--[if (mso)|(IE)]>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-<![endif]-->
-</div>
-</div>
-</div>
-<!--[if (mso)|(IE)]>
-</td>
-</tr>
-</table>
-<![endif]-->
-</td>
-</tr>
-</tbody>
-</table>
+</body>
 </html>
 </html>
